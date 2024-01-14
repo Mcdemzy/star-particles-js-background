@@ -3,10 +3,10 @@
 particlesJS("bg", {
   particles: {
     number: {
-      value: 90,
+      value: 100,
       density: {
         enable: true,
-        value_area: 800,
+        value_area: 315,
       },
     },
     color: {
@@ -29,26 +29,26 @@ particlesJS("bg", {
     },
     opacity: {
       value: 0.5,
-      random: false,
+      random: true,
       anim: {
-        enable: false,
-        speed: 1,
-        opacity_min: 0.1,
+        enable: true,
+        speed: 0.1,
+        opacity_min: 0.2,
         sync: false,
       },
     },
     size: {
-      value: 3,
+      value: 1,
       random: true,
       anim: {
-        enable: false,
-        speed: 40,
-        size_min: 0.1,
+        enable: true,
+        speed: 1,
+        size_min: 0.5,
         sync: false,
       },
     },
     line_linked: {
-      enable: true,
+      enable: false,
       distance: 150,
       color: "#ffffff",
       opacity: 0.4,
@@ -56,9 +56,9 @@ particlesJS("bg", {
     },
     move: {
       enable: true,
-      speed: 6,
+      speed: 0.3,
       direction: "none",
-      random: false,
+      random: true,
       straight: false,
       out_mode: "out",
       bounce: false,
